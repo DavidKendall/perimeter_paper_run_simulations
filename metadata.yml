@@ -1,0 +1,31 @@
+metadata_version: 1
+name: Swarm Simulator for ESWA_120183
+description: |-
+  A novel potential field model for perimeter and agent density control in multiagent swarms
+
+  Currently, most potential field models for decentralised control of multiagent swarms use only single-valued parameters for the computation of control vectors. This restriction often limits the structures that can evolve, since agents are unable to modify their behaviour based on their structural role. This paper proposes an enhanced model that uses the perimeter status of agents in selecting control parameters. This allows a wider variety of emergent behaviours, many of which result in much improved swarm structures.  The model is based upon equivalence classes of agent pairs, defined by their perimeter status.  Array-valued parameters are introduced to allow each equivalence class to be given its own parameter values.  The model also introduces a new control vector to `flatten' reflex angles between neighbouring agents on the swarm perimeter, often leading to significantly improved swarm structure. Extensive experiments have been conducted that demonstrate how the new model causes a variety of useful behaviours to emerge from random swarm deployments. The results show that several important behaviours, such as shape control, void removal, perimeter packing and expansion, and perimeter rotation, can be produced without the need for explicit inter-agent communication. The approach is applicable to a variety of applications, including reconnaissance, area-coverage, and containment.
+tags:
+- swarms
+- multi-agent systems
+- potential field
+- perimeter control
+- simulation
+authors:
+- name: Neil Eliot
+  affiliations:
+  - name: University of Sunderland
+- name: David Kendall
+  affiliations:
+  - name: none
+- name: Michael Brockway
+  affiliations:
+  - name: none
+- name: Paul Oman
+  affiliations:
+  - name: Northumbria University
+- name: Ahmed Bouridane
+  affiliations:
+  - name: University of Sharjah
+corresponding_contributor:
+  name: Neil Eliot
+  email: neil.eliot@sunderland.ac.uk
